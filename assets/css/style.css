@@ -224,17 +224,12 @@
 
 .gender-content {
   cursor: pointer;
-  padding-left: 10px;
-}
-
-.gender-content:first-child {
-  margin-left: 0;
 }
 
 .gender-span {
   position: relative;
   display: inline-block;
-  padding: 3px 15px 3px 20px;
+  padding: 3px 18px 3px 20px;
 }
 
 .gender-span::before {
@@ -354,5 +349,9 @@ textarea {
   padding: 13px;
   color: #fff;
   border: 1px solid #01bfbd;
+}
+
+.sub-btn:hover {
+  background-color: #01a6a4;
 }
 
