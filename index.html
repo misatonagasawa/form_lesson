@@ -32,30 +32,30 @@
                 <p class="label-text">名字
                   <span class="required">※</span>
                 </p>
-                <input type="text" name="first-name" class="input-text" required>
+                <input type="text" name="first-name" class="input-all" required>
               </div>
               <div class="name is-halfWidth">
                 <p class="label-text">氏名
                   <span class="required">※</span>
                 </p>
-                <input type="text" name="second-name" class="input-text" required>
+                <input type="text" name="second-name" class="input-all" required>
               </div>
             </div>
             <div class="row gender">
               <p class="label-text is-fullWidth">性別</p>
               <div class="gender-contents">
-                <label for="male" class="gender-content gender-span"></label>
-                  <input type="radio" name="gender" value="male" id="male" class="radio-plain">男性
-                <label for="female" class="gender-content gender-span"></label>
-                  <input type="radio" name="gender" value="female" id="female" class="radio-plain">女性
-                <label for="other" class="gender-content gender-span"></label>
-                  <input type="radio" name="gender" value="other" id="other" class="radio-plain">その他
+                <input type="radio" name="gender" value="male" id="male" class="radio-plain">
+                  <label for="male" class="gender-content gender-span">男性</label>
+                <input type="radio" name="gender" value="female" id="female" class="radio-plain">
+                  <label for="female" class="gender-content gender-span">女性</label>
+                <input type="radio" name="gender" value="other" id="other" class="radio-plain">
+                  <label for="other" class="gender-content gender-span">その他</label>
               </div>
             </div>
             <div class="row from is-halfWidth">
               <p class="label-text">出身</p>
               <div class="select-area">
-                <select name="from" id="from" class="input-all">
+                <select name="from" id="from" class="from-area input-all">
                   <option value="area1">東京</option>
                   <option value="area2">千葉</option>
                   <option value="area3">埼玉</option>
@@ -88,16 +88,16 @@
             <div class="row course">
               <p class="label-text">希望コース</p>
               <div class="course-option">
-                <input type="checkbox" name="course" value="frontend" id="course">
-                <label for="course" class="course-tx">フロントエンド</label>
+                <input type="checkbox" name="course" value="frontend" id="front">
+                <label for="front" class="course-tx">フロントエンド</label>
               </div>
               <div class="course-option">
-                <input type="checkbox" name="course" value="frontend" id="course">
-                <label for="course" class="course-tx">バックエンド</label>
+                <input type="checkbox" name="course" value="frontend" id="back">
+                <label for="back" class="course-tx">バックエンド</label>
               </div>
               <div class="course-option">
-                <input type="checkbox" name="course" value="frontend" id="course">
-                <label for="course" class="course-tx">アプリ</label>
+                <input type="checkbox" name="course" value="frontend" id="app">
+                <label for="app" class="course-tx">アプリ</label>
               </div>
             </div>
             <div class="row message">
