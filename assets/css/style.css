@@ -339,7 +339,7 @@ select::-ms-expand {
 }
 
 textarea {
-  resize: vertical;
+  resize: none;
   width:300px;
   height:200px;
 }
